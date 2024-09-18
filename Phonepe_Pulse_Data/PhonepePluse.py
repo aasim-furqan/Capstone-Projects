@@ -23,29 +23,29 @@ cursor = conn.cursor()
 
 # About PAGE
 def about_page():
-    col1, col2, = st.columns(2)
-    col1.image(Image.open("image1.jpg"), width=500)
-    with col1:
-        st.subheader("PhonePe  is an Indian digital payments and financial technology company headquartered in Bengaluru, Karnataka, India. PhonePe was founded in December 2015, by Sameer Nigam, Rahul Chari and Burzin Engineer. The PhonePe app, based on the Unified Payments Interface (UPI), went live in August 2016. It is owned by Flipkart, a subsidiary of Walmart.")
-        st.markdown("[DOWNLOAD APP](https://www.phonepe.com/app-download/)")
+    # col1, col2, = st.columns(2)
+    # col1.image(Image.open("image1.jpg"), width=500)
+    # with :
+    st.subheader("PhonePe  is an Indian digital payments and financial technology company headquartered in Bengaluru, Karnataka, India. PhonePe was founded in December 2015, by Sameer Nigam, Rahul Chari and Burzin Engineer. The PhonePe app, based on the Unified Payments Interface (UPI), went live in August 2016. It is owned by Flipkart, a subsidiary of Walmart.")
+    st.markdown("[DOWNLOAD APP](https://www.phonepe.com/app-download/)")
 
-    with col2:
-        st.video("pulse-video.mp4")
-        # st.write("Y")
+    # with col2:
+    #     st.video("pulse-video.mp4")
+    #     st.write("Y")
 
 # HOME PAGE
 def home_page():
-    col1,col2 = st.columns(2)
-    with col1:
-        st.video("upi.mp4")
-        # st.write("X")
-    with col2:
-        st.title(':violet[PHONEPE PULSE DATA VISUALISATION]')
-        st.subheader(':violet[Phonepe Pulse]:')
-        st.write('PhonePe Pulse is a feature offered by the Indian digital payments platform called PhonePe.PhonePe Pulse provides users with insights and trends related to their digital transactions and usage patterns on the PhonePe app.')
-        st.subheader(':violet[Phonepe Pulse Data Visualisation]:')
-        st.write('Data visualization refers to the graphical representation of data using charts, graphs, and other visual elements to facilitate understanding and analysis in a visually appealing manner.'
-                'The goal is to extract this data and process it to obtain insights and information that can be visualized in a user-friendly manner.')
+    # col1,col2 = st.columns(2)
+    # with col1:
+    #     st.video("upi.mp4")
+    #     st.write("X")
+    # with :
+    st.title(':violet[PHONEPE PULSE DATA VISUALISATION]')
+    st.subheader(':violet[Phonepe Pulse]:')
+    st.write('PhonePe Pulse is a feature offered by the Indian digital payments platform called PhonePe.PhonePe Pulse provides users with insights and trends related to their digital transactions and usage patterns on the PhonePe app.')
+    st.subheader(':violet[Phonepe Pulse Data Visualisation]:')
+    st.write('Data visualization refers to the graphical representation of data using charts, graphs, and other visual elements to facilitate understanding and analysis in a visually appealing manner.'
+            'The goal is to extract this data and process it to obtain insights and information that can be visualized in a user-friendly manner.')
         
 
 # ANALYSIS PAGE

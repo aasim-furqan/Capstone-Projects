@@ -8,7 +8,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 
-api_key ='**********************************' #(API Key generated from google developer console)
+api_key ='AIzaSyDF2ndNrhppk-YlFDfNoenbx5lbe7BxV0M' #(API Key generated from google developer console)
 # channel_id = 'UCBwmMxybNva6P_5VmxjzwqA'
 youtube = googleapiclient.discovery.build('youtube','v3',developerKey=api_key)
 
